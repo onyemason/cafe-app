@@ -7,16 +7,9 @@ import com.inn.cafe.constants.CafeConstants;
 import com.inn.cafe.dao.CategoryDao;
 import com.inn.cafe.dto.CategoryDto;
 import com.inn.cafe.service.CategoryService;
-import com.inn.cafe.utils.CafeUtils;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.logging.log4j.util.Strings;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Optional;
 
 @Slf4j
