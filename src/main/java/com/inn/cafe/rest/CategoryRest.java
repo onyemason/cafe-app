@@ -25,6 +25,7 @@ public class  CategoryRest {
     }
     @GetMapping(path = "/get")
     ResponseEntity<List<Category>> getAllCategory(){
+        // new bug fixes
         List<Category> getCategory = categoryService.getAllCategory();
         return new ResponseEntity<>(getCategory, HttpStatus.OK);
     }
